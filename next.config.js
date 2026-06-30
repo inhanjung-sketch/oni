@@ -1,4 +1,6 @@
-node_modules
-.next
-.vercel
-.DS_Store
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true
+};
+
+module.exports = nextConfig;
